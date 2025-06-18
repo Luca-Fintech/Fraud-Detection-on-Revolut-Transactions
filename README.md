@@ -34,28 +34,35 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
 
 ### 1. **Install Poetry** (if not already installed)
 ```bash 
-pip install poetry```
+pip install poetry
+```
 
----
-
-2. Install the project dependencies
+### 2. Install the project dependencies
+```bash 
 poetry install
+```
 
-3. Activate the poetry environment
+### 3. Activate the poetry environment
+```bash 
 poetry shell
+```
 
-📒 Run the Notebook
+### 📒 Run the Notebook
 After activating your environment with Poetry and downloading the datasets,
 open and run project.ipynb with Jupyter (or VSCode, Colab, etc.):
 
+```bash 
 jupyter notebook
+```
 or
+```bash 
 jupyter lab
+```
 
-📝 Notebooks
+### 📝 Notebooks
 project.ipynb — full code, explanations, and results.
 
-📣 Notes
+### 📣 Notes
 
 Data files are not provided in this repo.
 
