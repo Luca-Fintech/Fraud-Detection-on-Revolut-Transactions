@@ -35,7 +35,8 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
 ### 1. **Install Poetry** (if not already installed)
 ```bash 
 pip install poetry
-```bash
+
+---
 
 2. Install the project dependencies
 poetry install
