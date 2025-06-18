@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "revolut-project"
+version = "0.1.0"
+description = "\"A Python project for detecting fraudulent transactions in Revolut data using data science and machine learning.\""
+authors = ["Luca-Fintech <luca.rougemont@edu.devinci.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.3.0"
+plotly = "^6.1.2"
+nbformat = "^5.10.4"
+seaborn = "^0.13.2"
+matplotlib = "^3.10.3"
+xgboost = "^3.0.2"
+lightgbm = "^4.6.0"
+imblearn = "^0.0"
+imbalanced-learn = "^0.12.0"
+scikit-learn = "~1.5.0"
+tqdm = "^4.67.1"
+tensorflow = "^2.19.0"
+shap = "^0.48.0"
+tf-keras = "^2.19.0"
+scikeras = "^0.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
