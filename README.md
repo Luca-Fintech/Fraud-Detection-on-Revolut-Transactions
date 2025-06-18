@@ -26,20 +26,6 @@ You need to download them from Kaggle and place them in the `/data` folder:
 - [users.csv](https://www.kaggle.com/datasets/andrejzuba/revolutassignment/data?select=users.csv)
 - [fraudsters.csv](https://www.kaggle.com/datasets/andrejzuba/revolutassignment/data?select=fraudsters.csv)
 
-Directory structure after download:
-
-Fraud-Detection-on-Revolut-Transactions/
-│
-├── data/
-│ ├── transactions.csv
-│ ├── users.csv
-│ └── fraudsters.csv
-│
-├── project.ipynb
-├── pyproject.toml
-└── README.md
-
-
 ---
 
 ## 🛠️ Environment & Dependencies (Poetry)
@@ -49,6 +35,7 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
 ### 1. **Install Poetry** (if not already installed)
 ```bash 
 pip install poetry
+```bash
 
 2. Install the project dependencies
 poetry install
